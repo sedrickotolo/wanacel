@@ -1,0 +1,40 @@
+.logocolor{
+    color: #F20193 !important;
+}
+
+li{
+    list-style-type:circle;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.text-primary{
+    color: #F20193 !important;
+}
+
+.text-black{
+    color: white !important;
+}
+
+.wanacel_color{
+    color: #F20193 !important;
+}
+.rowbg{
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+    /* background-color: #741919; */
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.rowbg li{
+    color: #F20193;
+    margin-left: 10px;
+}
+.aboutxt{
+    align-items: center;
+    font-size: large;
+    
+}

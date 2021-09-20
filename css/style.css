@@ -201,6 +201,10 @@
     color: #fff;
     background: #fd5f00; }
 
+.site-logo{
+  margin-bottom: 30px;
+}
+
 body {
   line-height: 1.7;
   font-weight: 400;
@@ -369,7 +373,10 @@ h1, h2, h3, h4, h5,
       bottom: 0;
       z-index: 0;
       width: 100%;
-      background: rgba(205, 165, 88, 0.95); }
+      /* background: #bf9cdd; */
+      /* background: rgba(109, 158, 214, 0.95);  */
+      background: #632C94;
+    }
   .bg-image > .container {
     position: relative;
     z-index: 1; }
@@ -849,11 +856,11 @@ h1, h2, h3, h4, h5,
     right: 20px;
     border: 2px solid rgba(255, 255, 255, 0.5); }
   .intro-engage > div:nth-of-type(1) {
-    background-color: #4e4e4e; }
+    background-color: #F20193; }
   .intro-engage > div:nth-of-type(2) {
-    background-color: #fd5f00; }
+    background-color: #F20193; }
   .intro-engage > div:nth-of-type(3) {
-    background-color: #a23131; }
+    background-color: #F20193; }
   .intro-engage > div *:last-child {
     margin-bottom: 0; }
 
