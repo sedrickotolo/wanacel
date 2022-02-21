@@ -3,7 +3,7 @@
 }
 
 li{
-    list-style-type:circle;
+    list-style-type:none;
     color: rgb(255, 255, 255);
     font-size: 18px;
 }
@@ -36,7 +36,7 @@ li{
 .aboutxt{
     align-items: center;
     font-size: large;
-    
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -46,6 +46,6 @@ li{
     .logoclass{
         height: 50px;
         align-items: center;
-        
+
     }
   }
