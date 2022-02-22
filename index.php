@@ -28,6 +28,9 @@
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
     <link rel="stylesheet" href="css/aos.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;900&family=Roboto:wght@700&display=swap');
+</style>
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mystyles.css">
@@ -102,22 +105,22 @@
     </section>
 
 
-    <!--<div class="d-block d-md-flex homedetails intro-engage">
+    <div class="d-block d-md-flex homedetails intro-engage">
       <div class="">
         <h2>Women Rights</h2>
 
         <p>Accusantium dignissimos voluptas rem consequatur blanditiis error ratione illo sit quasi ut praesentium magnam</p>
       </div>
-      <div>
+      <div class="">
         <h2>Feed The Hungry</h2>
         <p>We are dedicated to feeding the poor and hungry around the community, empowering the church and sharing the hope that comes through Jesus Christ.</p>
 
       </div>
-      <div>
+      <div class="">
         <h2>Rescue An Orphan</h2>
-        <p>Accusantium dignissimos voluptas rem consequatur blanditiis error ratione illo sit quasi ut praesentium magnam</p>
+        <p></p>
       </div>
-    </div> -->
+    </div>
 
     <div class="white-bg" id="about-section" style="padding-top: 7rem;">
       <div class="container-fluid mb-4">
@@ -127,11 +130,19 @@
               <div class="col-md-112 text-center">
                 <div class="block-heading-">
                   <h2 class="wanacel_color mb-4 text-uppercase section-title">About Us<span class="dot"></span></h2>
-                  <p class="black-text aboutxt">Wanacel Foundation is a Women Advocacy for National Accountability, Equity and Liberty NGO (Non-Governmental Organization) founded on 4th/4/2016. The organization operates in Northern Districts of Lira, Gulu and Moroto. Lira is the regional head office. with a clear vison
-                    of creating a self-sustaining generation of women, girls and child headed families and has the following aims in the community. To improve and promote food security in households.
-                    To create income generating activities among women and child headed families. To revitalize minds of all communities about gender development and equal rights for everyone.
-                    To increase awareness about the acceptable health standards among Youth and children suffering from other opportunistic infections. To increase general awareness among all categories of people on HIV and AIDS.
-                      </p>
+                  <p class="black-text aboutxt">Wanacel Foundation is a Women Advocacy for National Accountability, Equity and Liberty NGO (Non-Governmental Organization) founded on 4<sup>th</sup>/4/2016. The organization operates in the Northern Districts of Lira, Gulu and Moroto. Lira is the regional head office. with a clear vision
+                    of creating a self-sustaining generation of women, girls and child headed families and has the following aims in the community. To improve and promote food security in households. To create income generating activities among women and child headed families.
+                      To revitalize minds of all communities about gender development and equal rights for everyone.
+                      To increase awareness about the acceptable health standards among Youth and children suffering from other opportunistic infections.
+                      To increase general awareness among all categories of people on HIV and AIDS.
+                    <!--<ul class="obj-list">
+                      <li class="black-text">To improve and promote food security in households.</li>
+                      <li class="black-text">To create income generating activities among women and child headed families.</li>
+                      <li class="black-text">To revitalize minds of all communities about gender development and equal rights for everyone.</li>
+                      <li class="black-text">To increase awareness about the acceptable health standards among Youth and children suffering from other opportunistic infections.</li>
+                      <li class="black-text">To increase general awareness among all categories of people on HIV and AIDS.</p></li>
+                    </ul> -->
+                  </p>
 
                   <!-- <p class="text-black aboutxt">Wanacel Foundation is a non-profit making, non-partisan and non-religious NGO with a a clear vison
                 of creating a self-sustaining generation of women, girls and child headed families and has the following aims in the community. To improve and promote food security in households.
@@ -349,7 +360,7 @@
           <div class="col-lg-5 text-center">
             <h2 class="section-title wanacel_color mb-4">MAKE A DONATION TODAY<span class="dot"></span></h2>
             <p class="black-text">Donate today and help our dedicated staff and volunteers</p>
-            <div><a href="#" class="btn indigo-bg white-text px-4 py-3 btn-block">Donate Now</a></div>
+            <div><a href="#" id="donate-btn" class="btn indigo-bg white-text px-4 py-3 btn-block" onclick="donateBtn()">Donate Now</a></div>
           </div>
         </div>
       </div>
@@ -413,7 +424,7 @@
               <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Director</span>
               <!-- <p class="px-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quidem, laudantium, illum minus numquam voluptas?</p> -->
               <div class="block-social-1">
-                <a href="https://www.facebook.com/etumakezi.ambrosez" class="btn border-w-2 rounded indigo-bg"><span class="icon-facebook"></span></a>
+                <a href="https://www.facebook.com/etum.lawnsome" class="btn border-w-2 rounded indigo-bg"><span class="icon-facebook"></span></a>
                 <a href="https://www.twitter.com/etumakezi" class="btn border-w-2 rounded indigo-bg"><span class="icon-twitter"></span></a>
 
               </div>
@@ -657,10 +668,19 @@
                 <p>Provision of high quality education and skills to women, girls and child headed families for better resource exploitation, management and control for improved quality of life.</p>
               </div>
               <div class="col-md-4 ml-auto">
-                <h2 class="footer-heading mb-4">Features</h2>
+                <h2 class="footer-heading mb-4">About</h2>
                 <ul class="list-unstyled">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#about-section">About Us</a></li>
+                  <li><a href="#what-we-do-section">What We Do</a></li>
+                  <li><a href="#team-section">Leadership</a></li>
+                  <li><a href="#team-section">News & Blog</a></li>
+                </ul>
+              </div>
+              <div class="col-md-2 ml-auto">
+                <h2 class="footer-heading mb-4">Follow Us</h2>
+                <ul class="list-unstyled d-flex flex-row">
+                <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/wanacelfoundation"><i class="fab fa-facebook white-text"></i></a></li>
+                      <li class="nav-item"><a class="nav-link" href="https://www.twitter.com/wanacelf"><i class="fab fa-twitter white-text"></i></a></li>
                 </ul>
               </div>
             </div>

@@ -414,3 +414,11 @@ $(document).ready(function () {
     }
 
 });
+
+//donate button
+
+function donateBtn () {
+	var btn = document.getElementById("donate-btn");
+	var alertText = "Feature coming soon";
+	alert(alertText);
+}
