@@ -1166,7 +1166,7 @@ h1, h2, h3, h4, h5,
 
 
     .hero-image {
-      background:  linear-gradient(white, transparent), linear-gradient( -45deg, white, transparent), linear-gradient( 45deg, #333, transparent), url('../images/Slider-image-03.jpg');
+      background:  linear-gradient(white, transparent), linear-gradient( -45deg, white, transparent), linear-gradient( 45deg, #333, transparent), url("../images/Slider-Image-03.jpg");
       background-blend-mode: multiply;
       background-color: #cccccc;
       height: 600px;
