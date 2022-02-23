@@ -832,10 +832,17 @@ h1, h2, h3, h4, h5,
     padding-bottom: 0px !important; }
     @media (max-width: 991.98px) {
       .sticky-wrapper .shrink {
-        padding-top: 30px !important;
-        padding-bottom: 30px !important; } }
+        padding-top: 30px !important; } }
 
-    @media screen and (max-width: 768px) {
+      .topbar {
+        display: flex;
+        align-items: center;
+        height: 30.2px;
+        padding: 3px 0 3px 0;
+        background-color: #fffafa;
+      }
+
+        @media screen and (max-width: 768px) {
       .topbar {
         display: none;
       }
@@ -1238,6 +1245,20 @@ a > span { color: var(--white);}
   background-size: cover;
 }
 
+.parallax-donate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/african_children.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
 .center-y {
   display: flex;
   flex-direction: column;
@@ -1274,4 +1295,10 @@ a > span { color: var(--white);}
   color:#fd5f00;
   font-size: 16px;
   padding-right: 5px;
+}
+
+@media screen and (max-width: 480px) {
+    .aboutxt {
+      text-align: none;
+}
 }

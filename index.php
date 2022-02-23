@@ -51,7 +51,7 @@
 
 
     <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
-        <div class="topbar af-white-bg">
+        <div class="topbar">
           <div class="container d-flex align-items-center py-1">
               <div class="col">
                   <ul class="nav">
@@ -60,7 +60,7 @@
                   </ul>
               </div>
               <div class="col d-flex justify-content-end">
-                  <a href="tel:+256701181732"><h6 class="indigo-text"><span class="p-2"><i class="fas fa-phone-alt"></i></span>+256 701181732</h6></a>
+                  <a href="tel:+256701181732"><div class="indigo-text"><span class="p-2"><i class="fas fa-phone-alt"></i></span>+256 701181732</div></a>
               </div>
           </div>
         </div>
@@ -122,7 +122,7 @@
       </div>
     </div>
 
-    <div class="white-bg" id="about-section" style="padding-top: 7rem;">
+    <div class="white-bg px-3" id="about-section" style="padding-top: 7rem;">
       <div class="container-fluid mb-4">
         <div class="container">
           <div class="row py-4">
@@ -130,7 +130,7 @@
               <div class="col-md-112 text-center">
                 <div class="block-heading-">
                   <h2 class="wanacel_color mb-4 text-uppercase section-title">About Us<span class="dot"></span></h2>
-                  <p class="black-text aboutxt">Wanacel Foundation is a Women Advocacy for National Accountability, Equity and Liberty NGO (Non-Governmental Organization) founded on 4<sup>th</sup>/4/2016. The organization operates in the Northern Districts of Lira, Gulu and Moroto. Lira is the regional head office. with a clear vision
+                  <p class="black-text aboutxt">Wanacel Foundation is a Women Advocacy for National Accountability, Equity and Liberty NGO (Non-Governmental Organization) founded on 4<sup>th</sup>/4/2016. The organization operates in the Northern Uganda Districts of Lira, Gulu and Moroto. Lira is the regional head office. with a clear vision
                     of creating a self-sustaining generation of women, girls and child headed families and has the following aims in the community. To improve and promote food security in households. To create income generating activities among women and child headed families.
                       To revitalize minds of all communities about gender development and equal rights for everyone.
                       To increase awareness about the acceptable health standards among Youth and children suffering from other opportunistic infections.
@@ -354,10 +354,10 @@
       </div>
       </div>
 
-    <div class="site-section bg-image af-white-bg" id="donate-section">
+    <div class="site-section bg-image af-white-bg parallax-donate" id="donate-section">
       <div class="container">
         <div class="row align-items-center justify-content-center">
-          <div class="col-lg-5 text-center">
+          <div class="col-lg-5 text-center bg-white p-5">
             <h2 class="section-title wanacel_color mb-4">MAKE A DONATION TODAY<span class="dot"></span></h2>
             <p class="black-text">Donate today and help our dedicated staff and volunteers</p>
             <div><a href="#" id="donate-btn" class="btn indigo-bg white-text px-4 py-3 btn-block" onclick="donateBtn()">Donate Now</a></div>
@@ -658,7 +658,7 @@
     </div>
 
 
-    <footer class="site-footer">
+    <footer class="site-footer px-3">
       <div class="container">
         <div class="row">
           <div class="col-md-">
@@ -674,6 +674,7 @@
                   <li><a href="#what-we-do-section">What We Do</a></li>
                   <li><a href="#team-section">Leadership</a></li>
                   <li><a href="#team-section">News & Blog</a></li>
+                  <li><a href="#contact-section">Contact Us</a></li>
                 </ul>
               </div>
               <div class="col-md-2 ml-auto">
