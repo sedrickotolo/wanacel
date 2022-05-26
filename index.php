@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mystyles.css">
 
+    <?php include './includes/dbcon.php'; ?>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
@@ -130,19 +131,8 @@
               <div class="col-md-112 text-center">
                 <div class="block-heading-">
                   <h2 class="wanacel_color mb-4 text-uppercase section-title">About Us<span class="dot"></span></h2>
-                  <p class="black-text aboutxt">Wanacel Foundation is a Women Advocacy for National Accountability, Equity and Liberty NGO (Non-Governmental Organization) founded on 4<sup>th</sup>/4/2016. The organization operates in the Northern Uganda Districts of Lira, Gulu and Moroto. Lira is the regional head office. with a clear vision
-                    of creating a self-sustaining generation of women, girls and child headed families and has the following aims in the community. To improve and promote food security in households. To create income generating activities among women and child headed families.
-                      To revitalize minds of all communities about gender development and equal rights for everyone.
-                      To increase awareness about the acceptable health standards among Youth and children suffering from other opportunistic infections.
-                      To increase general awareness among all categories of people on HIV and AIDS.
-                    <!--<ul class="obj-list">
-                      <li class="black-text">To improve and promote food security in households.</li>
-                      <li class="black-text">To create income generating activities among women and child headed families.</li>
-                      <li class="black-text">To revitalize minds of all communities about gender development and equal rights for everyone.</li>
-                      <li class="black-text">To increase awareness about the acceptable health standards among Youth and children suffering from other opportunistic infections.</li>
-                      <li class="black-text">To increase general awareness among all categories of people on HIV and AIDS.</p></li>
-                    </ul> -->
-                  </p>
+                  <p class="black-text aboutxt">Wanacel Foundation is a Women Advocacy for National Accountability, Equity and Liberty NGO (Non-Governmental Organization) founded on 4<sup>th</sup>/4/2016. The organization operates in the Northern Uganda Districts of Lira, Gulu and Moroto. Lira is the regional head office. It has a clear vision
+                    of creating a self-sustaining generation of women, girls and child headed families.</p>
 
                   <!-- <p class="text-black aboutxt">Wanacel Foundation is a non-profit making, non-partisan and non-religious NGO with a a clear vison
                 of creating a self-sustaining generation of women, girls and child headed families and has the following aims in the community. To improve and promote food security in households.
@@ -151,6 +141,36 @@
                   </p> -->
                 </div>
               </div>
+              <div class="ml-auto  py-4 center-y white-bg">
+              <h3 class="sub-section-title wanacel_color">OUR AIMS</h3>
+              <ol>
+                <li class="d-flex black-text">
+                    <span class="p-dot"></span>
+                    <p class="aboutxt px-3">To improve and promote food security in households.
+                    </p>
+                </li>
+                <li class="d-flex black-text">
+                    <span class="p-dot"></span>
+                    <p class="aboutxt px-3">To create income generating activities among women and child headed families.
+                    </p>
+                </li>
+                <li class="d-flex black-text">
+                    <span class="p-dot"></span>
+                    <p class="aboutxt px-3">To revitalize minds of all communities about gender development and equal rights for everyone.
+                    </p>
+                </li>
+                <li class="d-flex black-text">
+                    <span class="p-dot"></span>
+                    <p class="aboutxt px-3">To increase awareness about the acceptable health standards among Youth and children suffering from other opportunistic infections.
+                    </p>
+                </li>
+                <li class="d-flex black-text">
+                    <span class="p-dot"></span>
+                    <p class="aboutxt px-3"> To increase general awareness among all categories of people on HIV and AIDS.
+                    </p>
+                </li>
+              </ol>
+            </div>
             </div>
           </div>
         </div>
@@ -509,6 +529,27 @@
           </div>
           <div class="MultiCarousel" data-items="1,3,5,5" data-slide="1" id="MultiCarousel"  data-interval="1000">
             <div class="MultiCarousel-inner">
+            <div class="item">
+                <div class="pad15">
+                  <img src="images/wanacel_april.jpg">
+                </div>
+              </div>
+              <div class="item">
+                <div class="pad15">
+                  <img src="images/wanacel_april_01.jpg">
+                </div>
+              </div>
+              <div class="item">
+                <div class="pad15">
+                  <img src="images/wanacel_april_02.jpg">
+                </div>
+              </div>
+              <div class="item">
+                <div class="pad15">
+                  <img src="images/wanacel_april_03.jpg">
+                </div>
+              </div>
+
               <div class="item">
                 <div class="pad15">
                   <img src="images/wanacel-friends.jpg">
@@ -577,7 +618,17 @@
           </div>
         </div>
         <div class="row">
-          <div class="card col-lg-6 white-bg">
+        <div class="card col-lg-6 white-bg">
+            <div>
+              <a href="single.php" class="mb-4 d-block black-text"><img style="height: 302px;width: 100%;" src="images/wanacel_april_01.jpg" alt="Image" class="img-fluid rounded"></a>
+              <h2><a class="article-link black-text" href="single.html">A Ray Of Hope For kwania Flood Victims As Wanacel Foundation Donates Assorted Items</a></h2>
+              <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">15th May 2022</span> By <a href="#" class="by indigo-text">Patricia Aceng</a></p>
+              <p>For decades, Lango sub region was the food basket that feeds other regions of Uganda largely because it is blessed with vast acres of flat arable land and good weather that favors the growth of nearly all crops.
+                As such, hunger and food insecurity was on a minimal scale as most families produced enough food for home consumption and some for commercial purposes, but with the disastrous</p>
+              <p><a class="indigo-text" href="single.php">Read More</a></p>
+            </div>
+          </div>
+        <div class="card col-lg-6 white-bg">
             <div>
               <a href="#" class="mb-4 d-block black-text"><img src="images/poor.jpg" alt="Image" class="img-fluid rounded"></a>
               <h2><a class="article-link black-text" href="single.html">How To Help The Poor</a></h2>
